@@ -127,7 +127,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   font-weight: 300;
-  color: #afafaf;
+  /* color: #afafaf; */
 }
 
 img {
@@ -195,9 +195,9 @@ body {
   height: 2px;
 }
 
-.section-heading p {
+/* .section-heading p {
   margin-top: 10px;
-}
+} */
 
 .show-up {
   position: relative;
@@ -965,11 +965,11 @@ Services Style
   position: relative;
 }
 
-.services  .section-heading p {
+/* .services  .section-heading p {
   margin-top: 10px;
   margin-left: 18%;
   margin-right: 18%;
-}
+} */
 
 .services .container-fluid {
   padding-left: 65px;
@@ -1183,11 +1183,11 @@ The Clients
   margin-bottom: 80px;
 }
 
-.the-clients  .section-heading p {
+/* .the-clients  .section-heading p {
   margin-top: 10px;
   margin-left: 18%;
   margin-right: 18%;
-}
+} */
 
 .the-clients .naccs {
   position: relative;
@@ -1328,11 +1328,11 @@ The Clients
   margin-bottom: 80px;
 }
 
-.pricing-tables  .section-heading p {
+/* .pricing-tables  .section-heading p {
   margin-top: 10px;
   margin-left: 18%;
   margin-right: 18%;
-}
+} */
 
 .pricing-item-regular {
   margin-top: 30px;
@@ -2237,7 +2237,7 @@ responsive
   z-index: 0;
 }
 .card:hover::after {
-  height: 70%;
+  height: 60%;
 }
 .card-body {
   position: relative;
@@ -2248,7 +2248,7 @@ responsive
   color: white;
 }
 #cost{
-  color: rgb(111, 111, 123);
+  color: rgb(241 40 0);
 }
 
 /* Card effect end */
