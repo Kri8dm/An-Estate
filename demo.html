@@ -3,47 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* FAQs start */
+        .faq-question {
+            cursor: pointer;
+            padding: 10px;
+            position: relative;
+            font-size: 26px;
+            font-weight: 100;
+            color: rgb(14, 6, 6);
+        }
+
+        .faq-question .icon {
+            float: right;
+            font-size: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 10px 0;
+            font-size: 18px;
+            color: #070000;
+        }
+
+        .faq-question:hover .faq-answer {
+            display: block;
+        }
+
+        .faq-question:hover .icon {
+            transform: rotate(180deg);
+        }
+    </style>
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-        <div class="row">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+    <div class="container mt-5 row_space pb-5">
+        <h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+        <div class="faq">
+            <div class="faq-question">
+                <strong>1. How many types are available in the solar system?</strong>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                <div class="faq-answer">
+                    There are three types of solar system. The first is on-grid, the second is off-grid and the third is a hybrid solar system.
+                </div>
             </div>
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+            <div class="faq-question">
+                <strong>2. Can a commercial solar system be used for home?</strong>
+                <span class="icon"><i class="fas fa-chevron-down"></i></span>
+                <div class="faq-answer">
+                    Yes, a commercial solar system can be used for home. A commercial system will produce more power and need more space to install. If you have that much space at your home and you can handle that much production then you can install a commercial solar system at your home.
+                </div>
             </div>
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
+            <!-- Add more questions in the same format as above -->
         </div>
-        
+    </div>
 </body>
 </html>

@@ -1575,7 +1575,7 @@ footer {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 130px;
+  /* margin-top: 130px; */
   padding-top: 300px;
   padding-bottom: 60px;
 }
@@ -2252,3 +2252,38 @@ responsive
 }
 
 /* Card effect end */
+
+/* FAQs start */
+.faq-question {
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(14, 6, 6);
+}
+
+.faq-question .icon {
+  float: right;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+.faq-question:hover {
+  color: rgb(226, 96, 96); /* Change the color on hover */
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px 0;
+  font-size: 10px;
+  color: #070000;
+}
+
+.faq-question:hover .faq-answer {
+  display: block;
+}
+
+.faq-question:hover .icon {
+  transform: rotate(180deg);
+}
+/* FAQs end */
